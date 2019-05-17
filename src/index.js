@@ -1,4 +1,6 @@
-const ClipboardService = {
+export class ClipboardService {
+	constructor() { }
+
 	/**
 	 * Copy puts a string onto the clipboard
 	 * @param {String} data Data to copy to the clipboard
@@ -18,5 +20,3 @@ const ClipboardService = {
 		document.body.removeChild(el);
 	}
 };
-
-module.exports = ClipboardService;

@@ -1,29 +1,27 @@
-# clipboard-service
+# Clipboard Service
+
+Clipboard Service is a JavaScript component which provides methods for working
+with the clipboard in the browser.
+
+```bash
+npm install --save https://github.com/app-nerds/clipboard-service.git
+```
+
+## Example
+
+```js
+import { ClipboardService } from "@app-nerds/clipboard-service";
+
+let clipboardService = new ClipboardService();
+clipboardService.Copy("Testing!!");
+```
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
 ### Compiles and minifies for production
 ```
-npm run build
+make
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
