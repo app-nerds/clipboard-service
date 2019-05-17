@@ -11,7 +11,6 @@ export class ClipboardService {
 		el.setAttribute("readonly", "");
 		el.style.position = "absolute";
 		el.style.left = "-9999px";
-		//el.style.display = "none";
 
 		document.body.appendChild(el);
 
@@ -19,4 +18,4 @@ export class ClipboardService {
 		document.execCommand("copy");
 		document.body.removeChild(el);
 	}
-};
+}
