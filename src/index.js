@@ -20,4 +20,4 @@ class ClipboardService {
 	}
 }
 
-module.exports = ClipboardService;
+module.exports.ClipboardService = ClipboardService;
