@@ -1,14 +1,18 @@
 {
 	"name": "@app-nerds/clipboard-service",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"private": true,
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"scripts": {
 		"build:bundle": "vue-cli-service build --target lib --name clipboard-service ./src/index.js"
 	},
 	"main": "src/index.js",
 	"module": "./dist/image-asset-manager.esm.js",
 	"unpkg": "./dist/image-asset-manager.min.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/app-nerds/clipboard-service"
+	},
 	"dependencies": {
 		"core-js": "^2.6.5"
 	},

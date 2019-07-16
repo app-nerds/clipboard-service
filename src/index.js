@@ -1,5 +1,5 @@
-export class ClipboardService {
-	constructor() { }
+class ClipboardService {
+	constructor() {}
 
 	/**
 	 * Copy puts a string onto the clipboard
@@ -19,3 +19,5 @@ export class ClipboardService {
 		document.body.removeChild(el);
 	}
 }
+
+module.exports = ClipboardService;
