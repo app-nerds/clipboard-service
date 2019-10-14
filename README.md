@@ -3,29 +3,15 @@
 Clipboard Service is a JavaScript component which provides methods for working
 with the clipboard in the browser.
 
-```bash
-npm install --save https://github.com/app-nerds/clipboard-service.git
-```
+## Installation
 
-## Example
+This library works with any browser that supports JavaScript modules. Simply download this library into a folder into your project and include it in your JS files! In the example below let's assume we've downloaded this into a folder named "assets".
 
 ```js
-import { ClipboardService } from "@app-nerds/clipboard-service";
+import { ClipboardService } from "/assets/clipboard-service/ClipboardService.js";
 
 let clipboardService = new ClipboardService();
 clipboardService.Copy("Testing!!");
-```
-
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and minifies for production
-
-```
-make
 ```
 
 ## License

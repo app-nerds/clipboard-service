@@ -1,6 +1,10 @@
-class ClipboardService {
-	constructor() {}
-
+/*
+ * A service that provides methods for copy/pasting to/from clipboard.
+ *
+ * v1.1.0
+ * Copyright 2019 App Nerds LLC
+ */
+export class ClipboardService {
 	/**
 	 * Copy puts a string onto the clipboard
 	 * @param {String} data Data to copy to the clipboard
@@ -20,4 +24,3 @@ class ClipboardService {
 	}
 }
 
-module.exports.ClipboardService = ClipboardService;
